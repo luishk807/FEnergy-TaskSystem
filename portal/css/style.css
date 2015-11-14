@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background:url(../images/bk.jpg);
+	background-color:#FFF;
+	background-repeat:no-repeat;
+	background-position:top;
+	margin-top:0px;
+}
+html, body{
+	margin: 0; padding: 0;
+	font-family:'hitroad';
+	color:#373737;
+	font-size:13pt;
+	height:100%;
+}
+@font-face {
+   font-family: 'hitroad';
+   src: url(../fonts/hitroad_0.ttf);
+}
+@font-face {
+   font-family: 'handsean';
+   src: url(../fonts/handsean.ttf);
+}
+@font-face {
+   font-family: 'scrible';
+   src: url(../fonts/scrible.ttf);
+}
+.hitroad {
+   font-family: 'hitroad';
+   /*font-size: 3.2em;*/
+}
+.scrible {
+   font-family: 'scrible';
+   /*font-size: 3.2em;*/
+}
+#main_cont{
+	width:948px;
+	margin-right:auto;
+	margin-left:auto;
+  /*new for footer*/
+  	min-height: 100%;
+	margin-bottom: -93px;
+	position:relative;
+}
+#footercont{
+ height:93px;
+ position:relative;
+ background-image:url(../images/footerimg.jpg);
+ background-repeat:repeat-x;
+
+}
+#footer_in{
+	width:948px;
+	margin-left: auto;
+    margin-right: auto;
+}
+#footer_main{
+	color:#FFF;
+	font-family:'hitroad';
+	text-align:center;
+	padding-top:60px;
+}
+.footer_link{
+	color:#000;
+}
+.footer_link{
+	color:#000;
+}
+#footer_icon{
+	float:right;
+}
+.clearfooter {
+	height:93px;
+	clear: both;
+}
+.cleardiv {
+	clear: both;
+}
+.red{
+	color:#F00;
+	font-weight:bold;
+}
+.white{
+	color:#004682; 
+	font-weight:bold;
+}
+.white_home{
+	color:#004682; 
+	font-weight:bold;
+}
+#login_cont{
+	background-image:url(../images/s1b.png);
+	background-repeat:no-repeat;
+	width:753px;
+	height:483px;
+	margin-right:auto;
+	margin-left:auto;
+}
+#login_cont_panel{
+	padding-top:80px;
+}
+#loginmessage{
+	float:left;
+	width:400px;
+	height:90px;
+}
+#loginmessage_in{
+	padding-top:20px;
+	padding-left:60px;
+}
+#form{
+	padding-top:220px;
+}
+#questions_in{
+	width:550px;
+	padding-left:210px;
+}
+#form_spacer{
+	height:35px;
+}
+#home_button{
+	width:244px;
+	padding-top:40px;
+	float:right;
+	padding-right:20px;
+}
+#body_header{
+	background-image:url(../images/p1.png);
+	background-repeat:no-repeat;
+	width:948px;
+	height:249px;
+}
+#body_middle{
+	background-image:url(../images/p2.png);
+	background-repeat:repeat-y;
+}
+#body_footer{
+	background-image:url(../images/p3.png);
+	height:160px;
+	width:948px;
+}
+#header_greet{
+	padding-top:50px;
+	float:right;
+	font-family:'scrible';
+}
+#header_greet_in{
+	padding-right:130px;
+}
+#header_menu{
+	padding-top:190px;
+	float:left;
+	font-family:'scrible';
+}
+#header_menu_in{
+	padding-left:50px;
+}
+.header_logout{
+	text-decoration:underline;
+	font-family:'hitroad';
+	color:#000;
+	padding-top:10px;
+}
+.header_menu{
+	color:#FFF;
+	text-decoration:none;
+}
+.username_style{
+	color:#373737;
+}
+#body_content_home{
+	text-align:center; font-size:18pt; width:948px;
+}
+#body_content{
+ font-size:18pt; width:948px;
+}
+.rowstyleno{
+	background-color:#900; color:#FFF;
+}
+.rowstylenob{
+	background-color:#900; color:#FFF; font-family:'handsean';
+}
+.link_color{
+	font-family:'hitroad';
+	/*font-size:15pt;*/
+	color:#014681;
+	font-size:15pt;
+	font-weight:bold;
+	font-style:italic;
+}
+.link_colorb{
+	/*font-size:15pt;*/
+	color:#014681;
+}
+.task_title{
+	font-family:'scrible'; color:#235f92;
+}
+#task1{
+	float:left; width:450px;
+}
+#task2{
+	float:left;
+}
+#task3{
+	color:#235f92;float:left; width:350px; text-align:center;
+}
+#task_pending{
+	font-size:15pt;
+}
+#task_completed{
+	font-size:15pt;
+}
+.task_view_title{
+	font-family:'scrible'; color:#235f92;
+}
+.task_cp{
+	font-family:'handsean';
+	font-size:14pt;
+}
+#messageresult{
+	padding-left:50px; padding-right:50px; text-align:center; color:#F00;
+}
+#messageresultb{
+	text-align:center; padding-right:120px; font-size:20pt;
+}
+#task_in{
+	padding-left:50px; padding-right:60px;
+}
+.report_title{
+	font-family:'scrible'; color:#235f92;
+}
+.report_hand{
+	font-family:'handsean';
+}
+.report_subtitle{
+	font-family:'scrible'; color:#235f92;
+}
+.report_handreport{
+	font-family:'handsean';
+}
+.report_date{
+	font-family:'hitroad';color:#235f92; text-align:left;
+}
+.report_report{
+	font-family:'handsean';color:#235f92; text-align:left;
+}
+.report_view{
+	font-size:13pt; color:#235f92; text-align:left;
+}
+.report_view_link{
+	color:#235f92;
+}
+.task_edit_link{
+	font-family:'handsean';color:#235f92; font-size:13pt;
+}
+.changedate_style{
+	font-family:'handsean';color:#235f92; font-size:13pt;
+}

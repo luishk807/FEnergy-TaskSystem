@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+   font-family: 'handsean';
+   src: url(../fonts/handsean.eot);
+}
+@font-face {
+   font-family: 'scrible';
+   src: url(../fonts/scribble_box_demo.eot);
+}
